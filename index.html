@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--  -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,23 +8,33 @@
     <title>Главная страница</title>
     <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
 </head>
+
+<!-- ИКОНКИ ПРОСТО КАРТИНКИ А НЕ КНОПКИ 
+
+<li class="head__nav-item">
+    <button class="head__icon-button" type="button" aria-label="Открыть меню">
+        <img class="head__nav-logo" src="images/ic/burger.svg" alt="">
+    </button>
+</li> -->
 <body>
     <header class="head">
         <div class="head__conteiner">
             <nav class="head__nav">
                 <ul class="head__logo">
-                <li class="head__nav-item">
+
+                    <li class="head__nav-item">
+                        <!-- alt -->
                     <img class="head__nav-logo" src="images/ic/burger.svg" alt="spisok">
-                </li>
-                <li class="head__nav-item" >
-                    <img class="head__nav-logo1" src="images/divider.svg" alt=""> 
-                </li>
-                <li class="head__nav-item" >
-                    <img class="head__nav-logo" src="images/Group.svg " alt="лого" >
-                </li>
+                    </li>
+                    <li class="head__nav-item" >
+                        <img class="head__nav-logo1" src="images/divider.svg" alt=""> 
+                    </li>
+                    <li class="head__nav-item" >
+                        <img class="head__nav-logo" src="images/Group.svg " alt="лого" >
+                    </li>
                 </ul>
                 <div class="head__right">
-                <ul class="head__contact">
+                    <ul class="head__contact">
                 <li class="head__item "> 
                  <img class="head__img head__img-hide" src="images/ic/call.svg" alt=""> 
                 </li>
@@ -53,9 +64,14 @@
                
         <main>
             <section class="services">
-    <span class="services__title"><img  src="images/highlight.svg" alt="spisok">Услуги и сервисы</span>
+                <!-- зголовок? -->
+    <span class="services__title">
+        <img  src="images/highlight.svg" alt="spisok">
+        Услуги и сервисы
+    </span>
 
   <div class="services__content">
+    <!-- НЕ СМЕШИВАЙ ЯЗЫКИ -->
     <ul class="services__spisok">
                    <li class="services__list">
                         <a class="services__link" href="#">Ремонтируемые бренды</a>
@@ -64,7 +80,7 @@
                         <a class="services__link" href="#">Ремонтируемые устройства</a>
                     </li>
                     <li class="services__list" >
-                        <a class="services__link" href="#">Цены на услуги</a>
+                        <a class="services__link" href="">Цены на услуги</a>
                     </li>
                     <li class="services__list" >
                         <a class="services__link" href="#">Адреса сервисных центров</a>
@@ -80,8 +96,8 @@
 
 </section>
          
-
-        <section class=" texts">
+<!-- 1. пробел 2. секция текст, а внутри текс контейнер -->
+        <section class="texts">
             <div class="text__conteiner">
                 <div class="text">
                     <div class="text__left">
